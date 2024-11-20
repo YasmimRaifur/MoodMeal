@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodMeal - Comida para o seu Humor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MoodMeal</h1>
+    <p>Encontre o prato perfeito para o seu humor!</p>
+  </header>
+
+  <main>
+    <section class="mood-test">
+      <h2>Como você está se sentindo hoje?</h2>
+      <form id="mood-form">
+        <label>
+          <input type="radio" name="mood" value="nostalgic">
+          Nostálgico
+        </label>
+        <label>
+          <input type="radio" name="mood" value="stressed">
+          Estressado
+        </label>
+        <label>
+          <input type="radio" name="mood" value="energetic">
+          Energético
+        </label>
+        <label>
+          <input type="radio" name="mood" value="curious">
+          Curioso
+        </label>
+        <button type="submit">Encontrar Refeição</button>
+      </form>
+      <div id="suggestions"></div>
+    </section>
+
+    <section class="features">
+      <h2>O que você encontra no MoodMeal</h2>
+      <ul>
+        <li>Receitas para cada estado de espírito</li>
+        <li>Playlists personalizadas para cozinhar</li>
+        <li>Histórico de pratos e humores</li>
+        <li>Surpresas deliciosas!</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 MoodMeal. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f0;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #ff9966;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+  }
+  
+  /* Seções */
+  main {
+    padding: 20px;
+  }
+  
+  .mood-test {
+    background-color: #ffe8d6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .mood-test h2 {
+    font-size: 1.8rem;
+  }
+  
+  .mood-test label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .mood-test button {
+    background-color: #ff9966;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .mood-test button:hover {
+    background-color: #ff784e;
+  }
+  
+  .features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .features ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Sugestões */
+  #mood-form {
+    margin-bottom: 20px;
+  }
+  
+  #mood-form button {
+    margin-top: 10px;
+  }
+  
+  #suggestions {
+    background-color: #ffebcc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
